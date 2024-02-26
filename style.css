@@ -26,7 +26,7 @@ body {
 #typing-title{
     padding: 10px;
     font-family: 'Montague', sans-serif;
-    font-size: 6em;
+    font-size: 4em;
     text-decoration: none;
     letter-spacing: 2px;
     color: black;
@@ -103,7 +103,7 @@ img {
     border-color: black;
     position: relative;
     background-size: cover;
-    height: 30em;
+    height: 20em;
     display: flex;
     flex-direction: column; /* Change flex direction to column */
     margin: 40px;
@@ -112,18 +112,41 @@ img {
 
 #bio-title {
     text-align: left;
-    height:20em; /* Set a fixed height for the bio title */
+    height:10em; /* Set a fixed height for the bio title */
     overflow: auto;
 }
 
 #bio-text {
     font-family: "Unigeo-Medium";
     text-align: center;
-    margin-top: 20px; /* Add some space between the title and text */
+    margin-top: 10px; /* Add some space between the title and text */
 }
 
 h1{
     font-family: 'Vogue', Arial, Helvetica, sans-serif;
     font-size: 4em;
     text-align: center;
+}
+
+#project, #project-alt{
+    font-family: 'Vogue', sans-serif;
+    color:black;
+    font-size: 1em;
+    text-align: left;
+    margin: 2em;
+    padding: 30px;
+}
+#project{
+    border: 2px;
+    border-color: black;
+    background-color: #dbecd0;
+}
+
+#project-alt{
+    background-color: #F5D9DD;
+}
+
+#project-title{
+    background-color: #ffffff;
+    
 }
